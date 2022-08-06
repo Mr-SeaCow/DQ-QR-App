@@ -1,0 +1,241 @@
+{
+    "combo": [
+        {
+            "comboNumber": 1,
+            "title": "1/4 LB Bacon Cheese Grillburger",
+            "comboPrice": "7.99",
+            "sandwhichPrice": "6.99",
+            "ingredients": [
+                "Ketchup",
+                "Mayo",
+                "Lettuce",
+                "Tomato",
+                "Onion",
+                "Pickle",
+                "Bacon",
+                "American Cheese"
+            ],
+            "image": "https://blog.dairyqueen.com/dA/22c460ac01/quarter-pound-bacon-cheese-grillburger.png/300w",
+            "_uid": "o3kwpz"
+        },
+        {
+            "comboNumber": 2,
+            "title": "1/2 LB Flamethrower",
+            "comboPrice": "8.99",
+            "sandwhichPrice": "6.99",
+            "ingredients": [
+                "Flame"
+            ],
+            "image": "https://blog.dairyqueen.com/dA/22c460ac01/quarter-pound-bacon-cheese-grillburger.png/300w",
+            "_uid": "t16aim"
+        }
+    ],
+    "mealDeal": [
+        {
+            "title": "1/3 lb. Double with Cheese",
+            "price": "6.00",
+            "ingredients": [
+                "Ketchup",
+                "Mustard",
+                "Pickle"
+            ],
+            "image": "https://blog.dairyqueen.com/dA/1300df4d82/third-pound-double-cheese-deal.png/300w",
+            "_uid": "1slauk5"
+        }
+    ],
+    "basket": [
+        {
+            "title": "4 pc. Chicken Strip Basket",
+            "price": "6.00",
+            "priceWithDrink": "7.99",
+            "image": "https://blog.dairyqueen.com/dA/00f29a2458/chicken-strip-basket-4pc.png/300w",
+            "_uid": "ikxvgq"
+        }
+    ],
+    "kidsMeal": [
+        {
+            "title": "Cheeseburger",
+            "price": "4.99",
+            "ingredients": [
+                "Ketchup",
+                "Mustard",
+                "Pickle"
+            ],
+            "image": "https://blog.dairyqueen.com/dA/f63835d231/cheeseburger.png/300w",
+            "_uid": "15ypnak"
+        }
+    ],
+    "favorite": [
+        {
+            "title": "Cheeseburger",
+            "comboPrice": "5.49",
+            "sandwhichPrice": "2.69",
+            "ingredients": [
+                "Ketchup",
+                "Mustard",
+                "Pickle"
+            ],
+            "image": "https://blog.dairyqueen.com/dA/f63835d231/cheeseburger.png/300w",
+            "_uid": "15ypnak"
+        }
+    ],
+    "cone": [
+        {
+            "title": "Cone",
+            "prices": [
+                "1.69",
+                "2.59",
+                "2.99",
+                "3.29"
+            ],
+            "ssOption": [
+                "Vanilla",
+                "Chocolate",
+                "Twist"
+            ],
+            "image": "https://blog.dairyqueen.com/dA/f4206d9c14/vanilla-cone-small.png/300w",
+            "_uid": "1954z"
+        },
+        {
+            "title": "Dipped Cone",
+            "prices": [
+                "1.89",
+                "2.79",
+                "3.29",
+                "3.49"
+            ],
+            "ssOption": [
+                "Vanilla",
+                "Chocolate",
+                "Twist"
+            ],
+            "dipOption": [
+                "Chocolate",
+                "Cherry",
+                "Butterscotch",
+                "Dreamsicle"
+            ],
+            "image": "https://blog.dairyqueen.com/dA/e7b9c4e6f3/dipped-cone-chocolate-small.png/300w",
+            "_uid": "16x4w7z"
+        }
+    ],
+    "sundae": [
+        {
+            "title": "Sundae",
+            "prices": [
+                "1.69",
+                "2.59",
+                "2.99",
+                "3.29"
+            ],
+            "ssOption": [
+                "Vanilla",
+                "Chocolate",
+                "Twist"
+            ],
+            "topOption": [
+                "Chocolate",
+                "Strawberry",
+                "Carmel",
+                "Hot Fudge",
+                "Marshmellow",
+                "Peanut Butter"
+            ],
+            "image": "https://blog.dairyqueen.com/dA/f4206d9c14/vanilla-cone-small.png/300w",
+            "_uid": "1552x98"
+        }
+    ],
+    "royal": [
+        {
+            "title": "Peanut Buster Parfait",
+            "price": "4.99",
+            "image": "https://blog.dairyqueen.com/dA/13261139f7/peanut-buster-parfait.png/300w",
+            "_uid": "1j8hb53"
+        }
+    ],
+    "noveltie": [
+        {
+            "title": "Dilly Bar",
+            "price": "1.99",
+            "boxPrice": "7.99",
+            "dipOption": [
+                "Chocolate",
+                "Cherry",
+                "Butterscotch",
+                "Heath",
+                "Mint",
+                "No Sugar Added"
+            ],
+            "image": "https://blog.dairyqueen.com/dA/4804c7c894/dilly-bar-chocolate.png/300w",
+            "_uid": "3sn213"
+        },
+        {
+            "title": "Non-Dairy Dilly Bar",
+            "price": "2.49",
+            "boxPrice": "8.49",
+            "image": "https://blog.dairyqueen.com/dA/9cb573c34c/non-dairy-dilly.png/300w",
+            "_uid": "1q4okhm"
+        }
+    ],
+    "blizzard": [
+        {
+            "title": "Blizzard",
+            "prices": [
+                "2.99",
+                "3.99",
+                "4.99",
+                "5.49"
+            ],
+            "blizOfMonth": "Mint Oreo",
+            "dipOption": [
+                "Oreo",
+                "Cookie Dough",
+                "Butterfinger",
+                "M&M",
+                "Snickers",
+                "Reeses Peanut Butter Cup"
+            ],
+            "image": "https://blog.dairyqueen.com/dA/f23ea3a796/oreo-cookie-blizzard.png/300w",
+            "_uid": "1mmkg8k"
+        }
+    ],
+    "drink": [
+        {
+            "title": "Soft Drink",
+            "prices": [
+                "1.79",
+                "1.99",
+                "2.19"
+            ],
+            "options": [
+                "Pepsi",
+                "Diet Pepsi",
+                "Mountain Dew",
+                "Sierra Mist",
+                "Lemonade",
+                "Wild Cherry Pepsi",
+                "Root Beer",
+                "Dr. Pepper"
+            ],
+            "image": "https://www.freeiconspng.com/uploads/pepsi-png-file-27.png",
+            "_uid": "5klr8i"
+        },
+        {
+            "title": "Misty Slush",
+            "prices": [
+                "2.99",
+                "3.99",
+                "4.99"
+            ],
+            "options": [
+                "Strawberry Kiwi",
+                "Cherry",
+                "Blue Raspberry",
+                "Lemon Lime",
+                "Grape"
+            ],
+            "image": "https://blog.dairyqueen.com/dA/518acf469e/misty-slush-cherry.png/300w",
+            "_uid": "1r87s5p"
+        }
+    ]
+}
