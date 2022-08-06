@@ -1,0 +1,26 @@
+{
+  "name": "dq-qr-local-app",
+  "version": "1.0.0",
+  "description": "DQ-QR Website Updater",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "keywords": [],
+  "author": "Matthew Van Vleet",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^12.0.9",
+    "electron-wix-msi": "^3.2.0"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "dotenv": "^9.0.2",
+    "electron-store": "^8.0.0",
+    "qrcode": "^1.4.4",
+    "read-excel-file": "^5.1.0",
+    "sharp": "^0.28.3",
+    "xlsx": "^0.17.0",
+    "xlsx-style": "^0.8.13"
+  }
+}

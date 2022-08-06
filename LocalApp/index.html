@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>DQ-QR Website Updater</title>
+    <meta http-equiv="Content-Security-Policy" content="script-src 'self' 'unsafe-inline';" />
+    <style>
+        #loader {
+            border: 5px solid #a3a3a3; /* Light grey */
+            border-top: 5px solid #696969; /* Blue */
+            border-radius: 100%;
+            width: 20px;
+            height: 20px;
+            animation: spin 1.5s linear infinite;
+            display: none;
+        }
+
+        @-webkit-keyframes spin {
+            0% { -webkit-transform: rotate(0deg); }
+            100% { -webkit-transform: rotate(360deg); }
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+    </style>
+</head>
+<body style="background: white;">
+    <input type="file" id="fileSlct" accept="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"></input>
+    <p></p>
+    <button id="submit" disabled="false">Submit</button> <p id="loader"></p>
+    <p id="log"></p>
+</body>
+<script src="./public/renderer.js"></script>
+<script>
+    const { ipcRenderer } = require("electron")
+    function ePrompt() {
+    var answer = ipcRenderer.sendSync("prompt", "")
+    if(answer != "") 
+        document.getElementById("answer").innerHTML = answer;
+    }
+
+</script>
+</html>
