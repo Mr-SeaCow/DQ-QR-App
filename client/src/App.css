@@ -1,0 +1,35 @@
+.App {
+  text-align: left;
+}
+
+.center{
+  text-align: center;
+  word-wrap: normal;
+  font-size: calc(14px + 3vmin) !important;
+  padding: 20px 0px 20px 0px !important;
+}
+
+
+.huge.header {
+ font-family: Cervo Neue Bold,Arial,Helvetica,sans-serif !important;
+  color: #009ac1;
+}
+
+body {
+  background: radial-gradient(78.91% 78.91% at 21.09% 40.23%,hsla(0,0%,100%,.9) 0,hsla(0,0%,100%,.5) 100%),repeating-linear-gradient(-45deg,#99cae7,hsla(0,0%,100%,.5),hsla(0,0%,100%,.5) 2px,#99cae7 4px) !important;
+}
+
+h1.ui.header {
+  color: #009ac1;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
