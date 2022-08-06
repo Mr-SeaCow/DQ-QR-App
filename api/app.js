@@ -62,11 +62,7 @@ MongoClient.connect(process.env.DB_URL, {
     createStoreSchema(client);
     createMenuSchema(client);
     await StoreInfoDAO.injectDB(client);
-    await MenuInfoDAO.injectDB(client);
-    
-    // console.log(await StoreInfoDAO.getStoreInfo(15401));
-    
-    // console.log(await StoreInfoDAO.addStoreInfo({ id: 15409, authToken: 'lo8n6xuv8dhc0oeg1uy1sy8glfqsmkoo6actlvyh4q5gd64s1x2r9g5c5z0l2pe9t28tfssaybqtkvdkgdq9gyy4srqyn4zn56itziwkchk45xwgeg31jltzergd79ebvrrjfvqlfdb4k8kfltneckko271pv5cfra2gydcl6m88ez1keum7zms8wyzudbndxx5gs7j8ird8lmr6fsphrgt8kwcjku0ozdr6biderc8jxu9klpz7ry8a90t94x0m' }));
+    await MenuInfoDAO.injectDB(client);  
 
   });
 
